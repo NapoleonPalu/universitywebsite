@@ -13,3 +13,30 @@
   background-size: cover;
   position: relative;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 8%;
+}
+
+nav img {
+  width: 150px;
+}
+
+.nav-links ul {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  padding: 6px 12px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
